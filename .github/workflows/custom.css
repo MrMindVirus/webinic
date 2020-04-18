@@ -1,0 +1,30 @@
+.searchbtn{
+    width: 450px !important;
+    text-align: center;
+    background-color: rgba(40, 216, 240, 0.329);
+    height: 60px;
+    color:white;
+}
+.searchbtn:focus{
+    background-color: brown;
+    color: white;
+    font-size: medium;
+    border: 5px rosybrown solid;
+
+}
+.searchbtn::placeholder{
+    color:white;
+}
+.drpnav{
+    border: 5px solid rosybrown;
+    
+}
+.drpnavcolor{
+
+}
+.drpnavcolor:hover{
+    background-color: salmon;
+    color: black;
+    border: 3px solid rosybrown;
+    border-radius: 5px 5px;
+}
